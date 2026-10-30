@@ -1,0 +1,25 @@
+{
+  "placements": [
+    "global",
+    "regional"
+  ],
+  "vote_times_ms": [
+    4000
+  ],
+  "leaders": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "quorum": 67,
+  "model": {
+    "stall_probability": 0.01,
+    "stall_ms": 500,
+    "base_eth": 0.041,
+    "slope_eth_per_sec": 0.0065
+  },
+  "workers": 8,
+  "step_ms": 0.25,
+  "max_passes": 64
+}
